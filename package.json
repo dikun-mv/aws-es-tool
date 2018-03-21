@@ -1,0 +1,19 @@
+{
+  "name": "aws-es-tool",
+  "version": "0.1.0",
+  "description": "The tool for restoring automated snapshots on AWS Elasticsearch Service",
+  "main": "src/aws-es-tool.js",
+  "bin": "src/aws-es-tool.js",
+  "repository": "git@github.com:dikun-mv/aws-es-tool.git",
+  "author": "Maxim Dikun <dikun.mv@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/aws-es-tool.js"
+  },
+  "dependencies": {
+    "commander": "^2.15.1",
+    "console.table": "^0.10.0",
+    "request": "^2.85.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
